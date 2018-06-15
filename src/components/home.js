@@ -7,7 +7,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        { Header('Title1', 'Sup Yo') }
+        { Header('Bottega Madlibs', 'Fill out the fields and push Generate Madlib to creat your very own madlib!') }
         <Card />
       </div>
     );
