@@ -7,6 +7,7 @@
     font-family: 'Montserrat';
     font-size: 22px;
     justify-self: center;
+    transform: translateY(50%);
 }
 
 .home {
@@ -32,7 +33,7 @@
         top: 0;
         left: 0;
         position: absolute;
-        height: 110vw;
+        height: 100vw;
         width: 100vw;
         background-color: #444444;
     }
@@ -44,7 +45,7 @@
         top: 0;
         left: 0;
         position: absolute;
-        height: 110vw;
+        height: 100vw;
         width: 100vw;
         background-color: #00CB79;
     }
@@ -100,6 +101,22 @@
     &__clear {
         background-color: #45B0E5;
         @include button;
+    }
+
+    &__content {
+        width: 1100px;
+        height: 297px;
+        background-color: #F2F2F2;
+        justify-self: center;
+        margin-bottom: 84px;
+        line-height: 29px;
+
+        p {
+            padding: 50px 47px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 300;
+        }
     }
 
 }
