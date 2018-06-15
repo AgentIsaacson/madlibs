@@ -7,7 +7,6 @@
     font-family: 'Montserrat';
     font-size: 22px;
     justify-self: center;
-    transform: translateY(50%);
 }
 
 .gray {
@@ -103,11 +102,13 @@
 
     &__generate {
         background-color: #00CB79;
+        transform: translateY(-355px);
         @include button;
     }
 
     &__clear {
         background-color: #45B0E5;
+        transform: translateY(50%);
         @include button;
     }
 
