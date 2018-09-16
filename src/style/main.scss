@@ -22,7 +22,6 @@
     background-color: rgba(207,207,207,.06);
     display: grid;
     justify-items: center;
-    // align-items: center;
     grid-template-rows: [header-s] 218px [header-e card-s] minmax(736px, 994px) [card-e];
 }
 
@@ -82,7 +81,6 @@
     grid-template-rows: 1fr 50px;
     background-color: white;
     &__inputs {
-        // background-color: skyblue;
         display: grid;
         grid-template-rows: repeat(4, 27px);
         grid-template-columns: repeat(4, 1fr);
@@ -170,9 +168,6 @@
             outline: none;
             border-bottom: 1px solid rgb(0, 225, 247);
         }
-
-        // width: 190px;
-        // height: 40px;
     }
 
     &__number {
